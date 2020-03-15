@@ -18,7 +18,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="jar:file:/C:/Program%20Files/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material_design_icons/file/ic_file_download_black_24dp.xml" />
+                                      <entry key="url" value="jar:file:/C:/Program%20Files/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material_design_icons/image/ic_navigate_next_black_24dp.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -29,7 +29,7 @@
                         <option name="values">
                           <map>
                             <entry key="opacityPercent" value="89" />
-                            <entry key="outputName" value="ic_file_download" />
+                            <entry key="outputName" value="ic_navigate_next" />
                             <entry key="sourceFile" value="C:\Users\Gabs\Pictures\iconmonstr-marketing-33.svg" />
                           </map>
                         </option>
