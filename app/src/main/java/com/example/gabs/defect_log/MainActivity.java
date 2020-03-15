@@ -25,8 +25,9 @@ public class MainActivity extends AppCompatActivity {
         allFlashcards = flashcardDatabase.getAllCards();
 
         if(allFlashcards != null && allFlashcards.size() >0){
-            ((TextView) findViewById(R.id.defect)).setText(allFlashcards.get(0).getQuestion());
-            ((TextView) findViewById(R.id.defect_fix)).setText(allFlashcards.get(0).getAnswer());
+            int lastQidx = allFlashcards.size()-1;
+            ((TextView) findViewById(R.id.defect)).setText(allFlashcards.get(lastQidx).getQuestion());
+            ((TextView) findViewById(R.id.defect_fix)).setText(allFlashcards.get(lastQidx).getAnswer());
         }
 
 
