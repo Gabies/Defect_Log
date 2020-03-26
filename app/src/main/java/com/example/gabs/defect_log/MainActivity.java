@@ -7,6 +7,8 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.ViewAnimationUtils;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.TextView;
 
 import java.util.List;
@@ -98,6 +100,8 @@ public class MainActivity extends AppCompatActivity {
                 if (currentCardDisplayedIndex > allFlashcards.size() - 1) {
                     currentCardDisplayedIndex = 0;
                 }
+
+                final Animation leftOutAnim =  AnimationUtils.loadAnimation(v.getContext(), R.anim.left_out);
                 // set the question and answer TextViews with data from the database
                 ((TextView) findViewById(R.id.defect)).setText(allFlashcards.get(currentCardDisplayedIndex).getQuestion());
                 ((TextView) findViewById(R.id.defect_fix)).setText(allFlashcards.get(currentCardDisplayedIndex).getAnswer());
