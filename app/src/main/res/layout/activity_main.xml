@@ -71,4 +71,14 @@
         android:layout_marginStart="285dp"
         android:src="@drawable/ic_navigate_next" />
 
+    <ImageView
+        android:id="@+id/delete"
+        android:layout_width="66dp"
+        android:layout_height="52dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="25dp"
+        android:layout_marginStart="175dp"
+        android:src="@drawable/ic_delete" />
+
 </RelativeLayout>

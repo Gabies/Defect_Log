@@ -15,6 +15,7 @@ public interface FlashcardDao {
     List<Flashcard> getAll();
 
     @Insert
+
     void insertAll(Flashcard... flashcards);
 
     @Delete
@@ -23,5 +24,3 @@ public interface FlashcardDao {
     @Update(onConflict = OnConflictStrategy.REPLACE)
     void update(Flashcard flashcard);
 }
-//FlashcardDao.java
-//Displaying FlashcardDao.java.
