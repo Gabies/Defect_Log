@@ -10,7 +10,7 @@ Lets users have a good UI experience when transitioning to next Defect_Log card.
 
 ### App Walk-though
 
-<img src=https://imgur.com/04M20Nw width=200><br>
+<img src=https://imgur.com/04M20Nw.gif width=200><br>
 
 ## Required
 - [x] User sees a transition animation when going from the main screen to the add card screen.
